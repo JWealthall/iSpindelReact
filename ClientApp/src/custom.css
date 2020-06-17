@@ -1,0 +1,24 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.card-body .card-body-section {
+    border-radius: calc(0.25rem - 1px);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body .card-body-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: rgba(0, 0, 0, 0.03);
+}
